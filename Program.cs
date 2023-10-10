@@ -28,13 +28,15 @@ namespace Desafios_DiverseDev
                 new Desafio14(),
                 new Desafio15(),
                 new Desafio16(),
+                new Desafio17(),
+                new Desafio18(),
             };
 
             Console.WriteLine("Desafios DiverseDev");
             printOptions(1, 1, 4);
             printOptions(2, 5, 11);
             printOptions(3, 12, 15);
-            printOptions(4, 16, 16);
+            printOptions(4, 16, 18);
 
             while (!validChoice)
             {
