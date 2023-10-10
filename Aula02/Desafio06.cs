@@ -31,9 +31,9 @@ class Desafio06 : Desafio
                 Console.WriteLine("Idade inserida não é um número válido.");
             }
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            Console.Error.WriteLine(e.ToString());
+            Console.Error.WriteLine("Error: " + ex.Message);
         }
     }
 
