@@ -26,6 +26,8 @@ class Desafio16 : Desafio
                 if (i % 2 == 0)
                     somaPares += i;
             }
+
+            Console.Write($"O valor da soma de números pares é: {somaPares}");
         }
         catch (Exception ex)
         {
